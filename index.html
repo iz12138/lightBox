@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Fengyuan Chen">
+
+  <title>PoupMe!</title>
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.css">
+  <link rel="stylesheet" href="./PoupMe.css">
+</head>
+<body>
+  <div class="container" id="">
+
+    <div>
+      <img data-role="PoupMe" data-source="./IMG/1.jpg" data-group="2" data-id="id1" data-caption="a" src="./IMG/1.jpg" width="200" height="auto">
+      <img data-role="PoupMe" data-source="./IMG/2.jpg" data-group="2" data-id="id2" data-caption="b" src="./IMG/2.jpg" width="200" height="auto">
+      <img data-role="PoupMe" data-source="./IMG/3.jpg" data-group="2" data-id="id3" data-caption="c" src="./IMG/3.jpg" width="200" height="auto">
+      <img data-role="PoupMe" data-source="./IMG/4.jpg" data-group="2" data-id="id4" data-caption="d" src="./IMG/4.jpg" width="200" height="auto">
+      <img data-role="PoupMe" data-source="./IMG/5.jpg" data-group="3" data-id="id5" data-caption="e" src="./IMG/5.jpg" width="200" height="auto">
+      <img data-role="PoupMe" data-source="./IMG/6.jpg" data-group="3" data-id="id6" data-caption="f" src="./IMG/6.jpg" width="200" height="auto">
+      <img data-role="PoupMe" data-source="./IMG/7.jpg" data-group="3" data-id="id7" data-caption="g" src="./IMG/7.jpg" width="200" height="auto">
+      <img data-role="PoupMe" data-source="./IMG/8.jpg" data-group="3" data-id="id8" data-caption="h" src="./IMG/8.jpg" width="200" height="auto">
+      <img data-role="PoupMe" data-source="./IMG/9.jpg" data-group="3" data-id="id9" data-caption="i" src="./IMG/9.jpg" width="200" height="auto">
+    </div>
+
+    <a href="#" class="a-btn">
+      <span class="a-btn-text">走起!</span> 
+      <span class="a-btn-slide-text">show!</span>
+      <span class="a-btn-icon-right"><span></span></span>
+    </a>
+
+  </div>
+
+  <script src="http://cdn.bootcss.com/jquery/1.12.0/jquery.js"></script>
+  <script src="http://cdn.bootcss.com/bootstrap/3.3.6/js/bootstrap.js"></script>
+  <script src="./PoupMe.js"></script>
+  <script>
+  $(function(){
+    var poupMe = new PoupMe();
+  });
+  </script>
+
+</body>
+</html>
